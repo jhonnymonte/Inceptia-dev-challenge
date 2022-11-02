@@ -22,6 +22,10 @@ def validate_discount_code(discount_code):
     except Exception as ex:
         logger.info(ex)
 
+if __name__ == "__main__":
+    print(validate_discount_code('Verano2021'))
+    print(validate_discount_code("inceptia"))
+
 
 
 

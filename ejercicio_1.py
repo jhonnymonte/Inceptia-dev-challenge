@@ -26,4 +26,7 @@ class GeoAPI:
         else:
             return logger.info(response.status_code)
 
-        
+
+if __name__ == "__main__":
+
+    print(GeoAPI.is_hot_in_pehuajo())

@@ -14,6 +14,12 @@ def is_product_available(product_name, quantity):
             return  False
     except Exception as ex:
         logger.info(f'el producto {product_name} no es valido', {ex})
+    
+
+if __name__ == "__main__":
+    product_name = str(input('ingrese nombre del producto'))
+    quantity=int(input('ingrese la cantidad'))
+    print(is_product_available(product_name,quantity))
         
 
 
