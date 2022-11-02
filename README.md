@@ -11,6 +11,6 @@ crear un entorno virtual e instalar sus dependencias.
 
 >>> pipenv install
 
-luego correr los archivos desde una terminal.
+luego correr los archivos desde una terminal de windows o bash
 
 $python ejercicio_1.py
