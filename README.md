@@ -4,7 +4,7 @@
 
 El challenge cuenta con 3 ejercicios y un archivo de pruebas unitarias
 
-# Como correr el los archivos.
+# Como correr los archivos.
 
 crear un entorno virtual e instalar sus dependencias.
 >>> pipenv shell
